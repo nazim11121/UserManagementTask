@@ -33,7 +33,7 @@
                     @if($user->avatar)
                         <img src="{{ asset('storage/' . $user->avatar) }}" width="50" />
                     @else
-                        <img src="{{asset('storage/default.jpg')}}" width="50">
+                        <img src="{{asset('images/default.jpg')}}" width="50">
                     @endif
                 </td>
                 <td>
